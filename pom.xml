@@ -18,10 +18,6 @@
 
         <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
 
-        <java.version>1.8</java.version>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-
         <project.encondig>UTF-8</project.encondig>
         <project.build.sourceEncoding>${project.encondig}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${project.encondig}</project.reporting.outputEncoding>
@@ -106,8 +102,6 @@
                         <include>**/CucumberTestRunner.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <parallel>methods</parallel>
-                    <threadCount>5</threadCount>
                 </configuration>
             </plugin>
         </plugins>

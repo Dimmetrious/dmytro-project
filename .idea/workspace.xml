@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021966e2-69ab-4bcf-8a67-b3eab3f4ca09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="021966e2-69ab-4bcf-8a67-b3eab3f4ca09" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,17 +58,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Testing condition when user enters only Year">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Feature: datePicker" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/datePicker.feature" />
@@ -186,7 +173,7 @@
       <updated>1625853853083</updated>
       <workItem from="1625853856701" duration="13719000" />
       <workItem from="1625908552169" duration="1603000" />
-      <workItem from="1625910273656" duration="28459000" />
+      <workItem from="1625910273656" duration="28525000" />
     </task>
     <task id="LOCAL-00001" summary="Runner Added">
       <created>1625918524751</created>
@@ -209,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625957312339</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DatePicker done">
+      <created>1625958201696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625958201696</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

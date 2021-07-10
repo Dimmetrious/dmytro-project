@@ -7,7 +7,7 @@ Feature: autotest with selenide framework
   """
 
 
-  Scenario: Testing C.T.Co website with selenide
+  Scenario: Test for checking number of list elements on vacancy page of C.T.Co website with selenide
     Given I setup "chrome" browser
     When I navigate to "https://ctco.lv/en" url
     And I open vacancy with title "Senior Test Engineer"

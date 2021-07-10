@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021966e2-69ab-4bcf-8a67-b3eab3f4ca09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/datePicker/DatePickerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datePicker/ExpectedDateObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datePicker/ExpectedDateObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datePicker/InputDateObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DatePickerSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/datePicker.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/VacanciesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/VacanciesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/VacancyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/VacancyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/remoteWebDriver/SelenideRemoteDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/remoteWebDriver/SelenideRemoteDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SelenideSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SelenideSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/feature/selenide.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/selenide.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -66,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: selenide">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Testing condition when user enters only Year">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -78,14 +80,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: selenide" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: datePicker" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/selenide.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/datePicker.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="dmytro-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: selenide" />
+      <option name="SUGGESTED_NAME" value="Feature: datePicker" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Testing C.T.Co website with selenide" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Testing condition when user enters Year and Month" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/io/ctco/dmytro_project/features/selenide.feature" />
-      <option name="GLUE" value="io.ctco.dmytro_project.steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/datePicker.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="dmytro-project" />
-      <option name="NAME_FILTER" value="^Testing C\.T\.Co website with selenide$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Testing C\.T\.Co website with selenide$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Testing C.T.Co website with selenide" />
+      <option name="NAME_FILTER" value="^Testing condition when user enters Year and Month$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Testing condition when user enters Year and Month$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Testing condition when user enters Year and Month" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,35 +119,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CucumberTestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Testing condition when user enters full date" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/datePicker.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="dmytro-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CucumberTestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CucumberTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dmytro-project" />
+      <option name="NAME_FILTER" value="^Testing condition when user enters full date$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Testing condition when user enters full date$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Testing condition when user enters full date" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.ctco.dmytro_project.steps" />
-      <option name="MAIN_CLASS_NAME" value="steps.CucumberTestRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitSimpleTest.junitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Testing condition when user enters only Year" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/datePicker.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="dmytro-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JunitSimpleTest" />
-      <option name="METHOD_NAME" value="junitTest" />
+      <option name="NAME_FILTER" value="^Testing condition when user enters only Year$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Testing condition when user enters only Year$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Testing condition when user enters only Year" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatePickerHelper.getExpectedObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmytro-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datePicker.ExpectedDateObject" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datePicker" />
+      <option name="MAIN_CLASS_NAME" value="datePicker.DatePickerHelper" />
+      <option name="METHOD_NAME" value="getExpectedObject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: selenide" />
-        <item itemvalue="JUnit.JunitSimpleTest.junitTest" />
-        <item itemvalue="JUnit.CucumberTestRunner (1)" />
-        <item itemvalue="JUnit.CucumberTestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Testing C.T.Co website with selenide" />
+        <item itemvalue="Cucumber Java.Scenario: Testing condition when user enters only Year" />
+        <item itemvalue="Cucumber Java.Scenario: Testing condition when user enters Year and Month" />
+        <item itemvalue="Cucumber Java.Scenario: Testing condition when user enters full date" />
+        <item itemvalue="Cucumber Java.Feature: datePicker" />
+        <item itemvalue="JUnit.DatePickerHelper.getExpectedObject" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +195,7 @@
       <updated>1625853853083</updated>
       <workItem from="1625853856701" duration="13719000" />
       <workItem from="1625908552169" duration="1603000" />
-      <workItem from="1625910273656" duration="9693000" />
+      <workItem from="1625910273656" duration="27499000" />
     </task>
     <task id="LOCAL-00001" summary="Runner Added">
       <created>1625918524751</created>
@@ -180,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625918524751</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Comments added">
+      <created>1625920256285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625920256285</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +219,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Runner Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Runner Added" />
+    <MESSAGE value="Comments added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/datePicker/ExpectedDateObjectFactory.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -39,6 +39,7 @@ public class SelenideSteps {
     /*
     Comparing expected list count that is taken from feature file to actual(from page)
      */
+
     @Then("I verify that paragraph under {string}: contains exactly {int} skills")
     public void iVerifyThatParagraphUnderContainsExactlySkills(String paragraphTitle, int numberOfSkills) {
         int numberOfSkillsOnPage = vacancyPage.getNumberOfSkillsFromPage(paragraphTitle);

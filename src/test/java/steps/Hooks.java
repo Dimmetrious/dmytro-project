@@ -6,7 +6,6 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class Hooks {
 
-
     @After
     public void teardown(){
         closeWebDriver();

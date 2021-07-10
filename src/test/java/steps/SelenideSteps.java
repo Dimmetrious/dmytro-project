@@ -13,9 +13,6 @@ import static com.codeborne.selenide.Selenide.title;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SelenideSteps {
-
-
-
     private VacancyPage vacancyPage;
 
     @Given("I setup {string} browser")

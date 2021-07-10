@@ -9,10 +9,7 @@
 - jUnit5;
 - AssertJ;
 
-### For automation task I've chosen selenide instead of selenium because it's easier
-
-to implement:
-
+### For automation task I've chosen selenide instead of selenium because it's more flexible
 - Webriver configuration not needed;
 - Easy to pick browser (Chrome,Firefox,Opera);
 - You can work with elements directly including condition;

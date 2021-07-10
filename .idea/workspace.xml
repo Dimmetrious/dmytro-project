@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021966e2-69ab-4bcf-8a67-b3eab3f4ca09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_4_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_4_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dmytro-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmytro-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/VacanciesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/VacanciesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/VacancyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/selenide/ctco/VacancyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/remoteWebDriver/SelenideRemoteDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/remoteWebDriver/SelenideRemoteDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/SelenideSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SelenideSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/selenide.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/selenide.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,11 +171,23 @@
       <updated>1625853853083</updated>
       <workItem from="1625853856701" duration="13719000" />
       <workItem from="1625908552169" duration="1603000" />
-      <workItem from="1625910273656" duration="7973000" />
+      <workItem from="1625910273656" duration="9693000" />
     </task>
+    <task id="LOCAL-00001" summary="Runner Added">
+      <created>1625918524751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625918524751</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Runner Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runner Added" />
   </component>
 </project>

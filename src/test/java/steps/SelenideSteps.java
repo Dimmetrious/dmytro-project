@@ -27,8 +27,8 @@ public class SelenideSteps {
     }
 
 
-    @And("I open vacancie with title {string}")
-    public void iOpenVacancieWithTitle(String vacancy) {
+    @And("I open vacancy with title {string}")
+    public void iOpenVacancyWithTitle(String vacancy) {
         vacancyPage = new MainPage()
                 .openCareersMenu()
                 .openVacanciesPage()
@@ -36,6 +36,9 @@ public class SelenideSteps {
         assertThat(title()).isEqualTo(vacancy + " | C.T.Co People");
     }
 
+    /*
+    Comparing expected list count that is taken from feature file to actual(from page)
+     */
     @Then("I verify that paragraph under {string}: contains exactly {int} skills")
     public void iVerifyThatParagraphUnderContainsExactlySkills(String paragraphTitle, int numberOfSkills) {
         int numberOfSkillsOnPage = vacancyPage.getNumberOfSkillsFromPage(paragraphTitle);

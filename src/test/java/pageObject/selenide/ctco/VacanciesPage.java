@@ -10,6 +10,11 @@ public class VacanciesPage {
             activeClass = $x("//div[contains(@class,'active')]");
 
 
+    /*
+    - Waiting until list of vacancies is visible;
+    - Getting into vacancy that contains text @param String vacancy by clicking on element;
+    - Waiting until tiltle of vacancy is visible;
+     */
     public VacancyPage getIntoVacancy(String vacancy) {
         listOfVacancies.shouldBe(Condition.visible)
                 .$x(".//a[contains(text(),'" + vacancy + "')]").hover().click();
